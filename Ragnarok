@@ -1,0 +1,23 @@
+// Projeto Operadores/Variaveis
+// 13/01/2024
+
+//Variaveis
+let Nomespersoangens = (["Kratos" , "Grega" ,1000])
+let Armas = (["Lamina do Caos", "Leviatã"])
+// Para Kratos está no seu nível máximo,ele tem que estar na mitologia Grega e empunhando as Laminas do Caos em mãos
+let situacoes = "Lamina do Caos"
+let tempo = "Grega"
+let semArma = 500
+let requisitosMetade = 750
+let poder = Nomespersoangens [2] - 250 
+
+//Saídas
+
+//Opção 1
+console.info (Nomespersoangens [0] + "está empunhando sua arma ? E qual mitologia ele e está localizado?")
+console.log (situacoes === "Lamina do Caos" || tempo=== Nórdico)
+console.log (" O nível de poder de " + Nomespersoangens [0], "é de " + poder)
+//Opção 2
+console.info (Nomespersoangens [0] + " está empunhando sua arma ? E qual mitologia ele e está localizado?")
+console.log (situacoes !== "Lamina do Caos" && tempo !== "Grega")
+console.log (" O nível de poder de " + Nomespersoangens [0], "é de " + Nomespersoangens [2])
